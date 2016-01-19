@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="2" failed="0" total="2" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="New tours Demo Suite" duration-ms="73" started-at="2015-11-24T06:05:00Z" finished-at="2015-11-24T06:05:00Z">
+    <groups>
+    </groups>
+    <test name="Login on New tours" duration-ms="28" started-at="2015-11-24T06:05:00Z" finished-at="2015-11-24T06:05:00Z">
+      <class name="day1.Login">
+        <test-method status="SKIP" signature="logintest()[pri:0, instance:day1.Login@18ef96]" name="logintest" duration-ms="1" started-at="2015-11-24T11:35:00Z" finished-at="2015-11-24T11:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+      </class> <!-- day1.Login -->
+    </test> <!-- Login on New tours -->
+    <test name="links on new tours" duration-ms="4" started-at="2015-11-24T06:05:00Z" finished-at="2015-11-24T06:05:00Z">
+      <class name="day1.Link">
+        <test-method status="FAIL" signature="setup()[pri:0, instance:day1.Link@1618e91]" name="setup" is-config="true" duration-ms="0" started-at="2015-11-24T11:35:00Z" finished-at="2015-11-24T11:35:00Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at day1.Launch.setup(Launch.java:14)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:296)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1185)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1110)
+	at org.testng.TestNG.run(TestNG.java:1018)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="SKIP" signature="logout_Test()[pri:0, instance:day1.Link@1618e91]" name="logout_Test" duration-ms="2" started-at="2015-11-24T11:35:00Z" finished-at="2015-11-24T11:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout_Test -->
+        <test-method status="SKIP" signature="teardown()[pri:0, instance:day1.Link@1618e91]" name="teardown" is-config="true" duration-ms="0" started-at="2015-11-24T11:35:00Z" finished-at="2015-11-24T11:35:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- day1.Link -->
+    </test> <!-- links on new tours -->
+  </suite> <!-- New tours Demo Suite -->
+</testng-results>

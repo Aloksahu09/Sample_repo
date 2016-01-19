@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [New tours Demo Suite]">
+  <test name="Login on New tours(failed)">
+    <classes>
+      <class name="day1.Link">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- day1.Link -->
+      <class name="day1.Login">
+        <methods>
+          <include name="logintest"/>
+        </methods>
+      </class> <!-- day1.Login -->
+    </classes>
+  </test> <!-- Login on New tours(failed) -->
+  <test name="links on new tours(failed)">
+    <classes>
+      <class name="day1.Link">
+        <methods>
+          <include name="logout_Test"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- day1.Link -->
+    </classes>
+  </test> <!-- links on new tours(failed) -->
+</suite> <!-- Failed suite [New tours Demo Suite] -->
